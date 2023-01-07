@@ -13,6 +13,7 @@ OpenAIValueMapping::OpenAIValueMapping()
 	engineTypes.Add(EOAEngineType::TEXT_BABBAGE_001, TEXT("TEXT-BABBAGE-001"));
 	engineTypes.Add(EOAEngineType::TEXT_ADA_001, TEXT("TEXT-ADA-001"));
 	engineTypes.Add(EOAEngineType::TEXT_DAVINCI_002, TEXT("TEXT-DAVINCI-003"));
+	engineTypes.Add(EOAEngineType::UNFAMILIAR_TERRITORY, TEXT("UNFAMILIAR-TERRITORY"));
 
 	imageSizes.Add(EOAImageSize::SMALL, TEXT("256x256"));
 	imageSizes.Add(EOAImageSize::MEDIUM, TEXT("512x512"));

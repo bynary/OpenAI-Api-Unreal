@@ -62,33 +62,36 @@ void UOpenAICallGPT::Activate()
 	FString apiMethod;
 	switch (engine)
 	{
-	case EOAEngineType::DAVINCI:
+		case EOAEngineType::DAVINCI:
 			apiMethod = "davinci";
-	break;
-	case EOAEngineType::CURIE:
+		break;
+		case EOAEngineType::CURIE:
 			apiMethod = "curie";
-	break;
-	case EOAEngineType::BABBAGE:
+		break;
+		case EOAEngineType::BABBAGE:
 			apiMethod = "babbage";
-	break;
-	case EOAEngineType::ADA:
+			break;
+		case EOAEngineType::ADA:
 			apiMethod = "ada";
-	break;
-	case EOAEngineType::TEXT_DAVINCI_002:
-		apiMethod = "text-davinci-002";
-	break;
-	case EOAEngineType::TEXT_CURIE_001:
-		apiMethod = "text-curie-001";
-	break;
-	case EOAEngineType::TEXT_BABBAGE_001:
-		apiMethod = "text-babbage-001";
-		break;
-	case EOAEngineType::TEXT_ADA_001:
-		apiMethod = "text-ada-001";
-		break;
-	case EOAEngineType::TEXT_DAVINCI_003:
-		apiMethod = "text-davinci-003";
-		break;
+			break;
+		case EOAEngineType::TEXT_DAVINCI_002:
+			apiMethod = "text-davinci-002";
+			break;
+		case EOAEngineType::TEXT_CURIE_001:
+			apiMethod = "text-curie-001";
+			break;
+		case EOAEngineType::TEXT_BABBAGE_001:
+			apiMethod = "text-babbage-001";
+			break;
+		case EOAEngineType::TEXT_ADA_001:
+			apiMethod = "text-ada-001";
+			break;
+		case EOAEngineType::TEXT_DAVINCI_003:
+			apiMethod = "text-davinci-003";
+			break;
+		case EOAEngineType::UNFAMILIAR_TERRITORY:
+			apiMethod = "unfamiliar-territory-v2";
+			break;
 	}
 
 	// convert parameters to strings
