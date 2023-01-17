@@ -89,8 +89,8 @@ void UOpenAICallGPT::Activate()
 		case EOAEngineType::TEXT_DAVINCI_003:
 			apiMethod = "text-davinci-003";
 			break;
-		case EOAEngineType::UNFAMILIAR_TERRITORY:
-			apiMethod = "unfamiliar-territory-v2";
+		case EOAEngineType::UNFAMILIAR_TERRITORY_V2:
+			apiMethod = "davinci:ft-personal:unfamiliar-territory-story-v2-2023-01-06-04-43-42";
 			break;
 	}
 

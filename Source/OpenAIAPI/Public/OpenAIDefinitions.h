@@ -19,6 +19,7 @@ enum class EOAEngineType : uint8
 	TEXT_BABBAGE_001 = 6 UMETA(ToolTip = "Capable of straightforward tasks, very fast, and lower cost."),
 	TEXT_ADA_001 = 7 UMETA(ToolTip = "Capable of simple tasks, using the fastest model in the GPT-3 series, and lowest cost."),
 	TEXT_DAVINCI_003 = 8 UMETA(ToolTip = "Most capable model in the GPT-3 series. Can perform any task the other GPT-3 models can, often with less context."),
+	UNFAMILIAR_TERRITORY_V2 = 9 UMETA(ToolTip = "An OpenAI model trained on game lore for the upcoming open world adventure game Unfamiliar Territory."),
 };
 
 UENUM(BlueprintType)
